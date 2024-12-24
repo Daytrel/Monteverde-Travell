@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours en Monteverde</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #2c5e1a;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #d4e4c7;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        nav a {
+            color: #2c5e1a;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('https://example.com/monteverde-banner.jpg') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            font-size: 2em;
+            text-align: center;
+        }
+        .section {
+            padding: 20px;
+        }
+        .section h2 {
+            color: #2c5e1a;
+            margin-bottom: 10px;
+        }
+        .tour {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .tour img {
+            max-width: 200px;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+        .tour p {
+            margin: 0;
+        }
+        footer {
+            background: #2c5e1a;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explora Monteverde</h1>
+        <p>Vive la aventura, descubre la naturaleza</p>
+    </header>
+
+    <nav>
+        <a href="#tours">Tours</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="hero">
+        Bienvenido a Monteverde
+    </div>
+
+    <section id="tours" class="section">
+        <h2>Tours Disponibles</h2>
+        <div class="tour">
+            <img src="https://example.com/bosque-nuboso.jpg" alt="Bosque Nuboso">
+            <div>
+                <h3>Caminata en el Bosque Nuboso</h3>
+                <p>Duración: 3 horas</p>
+                <p>Precio: $50 por persona</p>
+                <button>Reservar</button>
+            </div>
+        </div>
+        <div class="tour">
+            <img src="https://example.com/tirolesas.jpg" alt="Tirolesas">
+            <div>
+                <h3>Aventura en Tirolesas</h3>
+                <p>Duración: 2 horas</p>
+                <p>Precio: $70 por persona</p>
+                <button>Reservar</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="section">
+        <h2>Galería</h2>
+        <p>Aquí podrás ver fotos de nuestras aventuras en Monteverde.</p>
+        <!-- Añade una galería de imágenes aquí -->
+    </section>
+
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <p>Teléfono: 70259710</p>
+        <p>Email: chaji_8@hotmail.com</p>
+        <form>
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2024 Tours Monteverde. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
